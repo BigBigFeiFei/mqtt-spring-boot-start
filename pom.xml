@@ -8,14 +8,6 @@
     <artifactId>mqtt-spring-boot-start</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <distributionManagement>
-        <repository>
-            <id>nexus-snapshots</id>
-            <name>Nexus snapshots</name>
-            <url>http://nexus.yndysc.com:8888/repository/maven-snapshots/</url>
-        </repository>
-    </distributionManagement>
-
     <properties>
         <java.version>1.8</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
