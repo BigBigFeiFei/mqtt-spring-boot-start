@@ -1,9 +1,7 @@
 # mqtt-spring-boot-start
-<<<<<<< HEAD
-mqtt启动器
-=======
 
-mqtt启动器<br>
+mqtt启动器
+
 1. 项目中引入依赖如下：<br>
 ```
         <dependency>
@@ -34,4 +32,9 @@ mqtt:
 ```
 3. 启动类上加入如下注解：<br>
 3.1 @EnableMqtt //开启Mqtt<br>
->>>>>>> 82e52b9... code commit
+
+4.文章
+
+https://blog.csdn.net/qq_34905631/article/details/135930755?spm=1001.2014.3001.5501
+
+https://blog.csdn.net/qq_34905631/article/details/135919966?spm=1001.2014.3001.5501s
