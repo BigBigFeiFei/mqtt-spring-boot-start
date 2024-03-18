@@ -9,7 +9,8 @@ mqtt启动器
     <artifactId>mqtt-spring-boot-start</artifactId>
     <version>1.0</version>
 </dependency>
-```        
+```
+
 2. nacos配置如下：<br>
 ```
 mqtt:
