@@ -26,6 +26,7 @@
         <guava.version>29.0-jre</guava.version>
         <spring.cloud.context.version>2.2.6.RELEASE</spring.cloud.context.version>
         <openfeign.version>2.2.6.RELEASE</openfeign.version>
+        <serverId>central</serverId><!-- 服务id 也就是setting.xml中的servers.server.id -->
     </properties>
 
     <url>https://github.com/BigBigFeiFei/mqtt-spring-boot-start</url>
@@ -266,7 +267,13 @@
 
 
         </plugins>
-
     </build>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>${serverId}</id><!--与settings.xml的server.id保持一致-->
+            <url>https://central.sonatype.com/</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 </project>
